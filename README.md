@@ -1,12 +1,86 @@
-# React + Vite
+ChatGPT-Like UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple ChatGPT-like user interface built with React and Vite.It includes a Login Page, Sign-Up Page, and Chat Interface.The app uses localStorage for authentication and chat history persistence.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ChatGPT UI Clone
 
-## Expanding the ESLint configuration
+📌 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ User Authentication (Sign Up & Login)✅ Persistent Chat History (stored in localStorage)✅ Auto-Reply Bot (predefined response)✅ Responsive Design (works on all screen sizes)✅ GitHub Pages Deployment
+
+📁 Project Structure
+
+chatgpt-ui-clone/
+│── public/                   # Public assets
+│   ├── logo.png              # Logo image
+│── src/                      # Source files
+│   ├── components/           # Components
+│   │   ├── Login.jsx         # Login Page
+│   │   ├── Signup.jsx        # Sign-Up Page
+│   │   ├── Chat.jsx          # Chat Interface
+│   │   ├── Message.jsx       # Single message component
+│   ├── styles/               # CSS Files
+│   │   ├── global.css        # Global styles
+│   │   ├── login.css         # Login styles
+│   │   ├── signup.css        # Signup styles
+│   │   ├── chat.css          # Chat styles
+│   ├── App.jsx               # Main App Component
+│   ├── main.jsx              # Entry file
+│── index.html                # Root HTML file
+│── package.json              # Dependencies
+│── vite.config.js            # Vite Configuration
+│── README.md                 # Documentation
+
+🛠 Installation & Setup
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/gouri22-art/chatgpt-ui-clone.git
+cd chatgpt-ui-clone
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Run the App (Development Mode)
+
+npm run dev
+
+Open http://localhost:5173/ in your browser.
+
+🌍 Deployment on GitHub Pages
+
+1️⃣ Build the Project
+
+npm run build
+
+2️⃣ Deploy to GitHub Pages
+
+npm run deploy
+
+The app will be deployed at:https://<your-username>.github.io/
+
+🔧 Tech Stack
+
+React + Vite (Frontend Framework)
+
+React Router (Navigation)
+
+LocalStorage (Data Persistence)
+
+HTML, CSS, JavaScript (UI Styling & Logic)
+
+GitHub Pages (Hosting)
+
+🐜 License
+
+This project is licensed under the MIT License.
+
+💬 Feedback & Support
+
+Feel free to raise an issue or contribute to the project!🌟 If you like this project, give it a star on GitHub!
+
+🎉 Happy Coding! 🚀
+
