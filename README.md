@@ -1,10 +1,10 @@
-ChatGPT-Like UI
+# ChatGPT-Like UI
 
-This is a simple ChatGPT-like user interface built with React and Vite.It includes a Login Page, Sign-Up Page, and Chat Interface.The app uses localStorage for authentication and chat history persistence.
+## This is a simple ChatGPT-like user interface built with React and Vite.It includes a Login Page, Sign-Up Page, and Chat Interface.The app uses localStorage for authentication and chat history persistence.
 
 🚀 Live Demo
 
-ChatGPT UI Clone
+### ChatGPT UI Clone
 
 📌 Features
 
