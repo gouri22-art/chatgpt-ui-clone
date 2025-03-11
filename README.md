@@ -7,7 +7,7 @@ The app uses **localStorage** for authentication and chat history persistence.
 ---
 
 ## 🚀 **Live Demo**  
-[ChatGPT UI Clone](https://<your-username>.github.io/)  
+[ChatGPT UI Clone](https://gouri22-art.github.io/)  
 
 ---
 
@@ -49,7 +49,7 @@ chatgpt-ui-clone/
 ## 🛠 **Installation & Setup**
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/<your-username>/chatgpt-ui-clone.git
+git clone https://github.com/gouri22-art/chatgpt-ui-clone.git
 cd chatgpt-ui-clone
 ```
 
@@ -76,7 +76,7 @@ npm run build
 npm run deploy
 ```
 - The app will be deployed at:  
-  **`https://<your-username>.github.io/`**  
+  **`https://gouri22-art.github.io/`**  
 
 ---
 
